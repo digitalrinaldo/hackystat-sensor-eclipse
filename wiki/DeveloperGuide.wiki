@@ -1,4 +1,5 @@
 #summary Developer Guide for Hackystat Eclipse Sensor.
+#labels Featured
 
 = Introduction =
 
