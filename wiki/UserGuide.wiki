@@ -7,7 +7,12 @@ This User Guide provides instructions on how to install, configure, and run the 
 
 = 2.0 Installation =
 
-Before installing the Hackystat Eclipse Sensor, you should install Eclipse 3.2 first if you have not done so. 
+== 2.1 Eclipse ==
+
+Eclipse must be installed first. We suggest you use the Eclipse's Feature Update Manager to automatically install the sensor. 
+
+== 2.2 Feature Installation ==
+
 
 = 3.0 Eclipse Sensor Debugging =
 
