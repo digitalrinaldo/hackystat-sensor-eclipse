@@ -16,10 +16,10 @@ Eclipse 3.2 must be installed first. You will need its *Feature Update Manager* 
 == 2.2 Feature Installation ==
 
   # Selecting mean Help | Software Update | Find and Install,  Eclipse will prompt you the *Feature Updates* window. 
-  #Check *Search for new features to install* and click the *Next* button. 
-  #Click the "New Remote Site ..." button in the "Update sites to visit" window.
-  #In the "New Update Site" window, enter _Hackystat Eclipse Sensor_ as the site name and _http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/site/site.xml_ as the site URL.  
-  #Click *OK* button to confirm the entered information.
-  #Click the "Finish" button, then Eclipse will automatically locate the "Hackystat Eclipse Sensor" and install it.   
+  # Check *Search for new features to install* and click the *Next* button. 
+  # Click the "New Remote Site ..." button in the "Update sites to visit" window.
+  # In the "New Update Site" window, enter _Hackystat Eclipse Sensor_ as the site name and _http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/site/site.xml_ as the site URL.  
+  # Click *OK* button to confirm the entered information.
+  # Click the "Finish" button, then Eclipse will automatically locate the "Hackystat Eclipse Sensor" and install it.   
 
 = 3.0 Eclipse Sensor Debugging =
