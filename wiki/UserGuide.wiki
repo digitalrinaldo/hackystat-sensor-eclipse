@@ -20,6 +20,12 @@ Eclipse 3.2 must be installed first. You will need its *Feature Update Manager* 
   # Click the *New Remote Site ...* button in the *Update sites to visit* window.
   # In the *New Update Site* window, enter _Hackystat Eclipse Sensor_ as the site name and _http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/site/site.xml_ as the site URL.  
   # Click *OK* button to confirm the entered information.
-  # Click the *Finish* button, then Eclipse will automatically locate the _Hackystat Eclipse Sensor_ and install it.   
+  # Click the *Finish* button, then Eclipse will automatically locate the _Hackystat Eclipse Sensor_ for you to install.
+  # Install Hackystat Eclipse Sensor using the *Update Manager* 
 
-== 2.2 Sensor Configuration ==
+= 3.0 Sensor Configuration =
+
+== Download and start sensorbase ==
+
+== Sensor Settings ==
+You will need to provide a Hackystat host,  a user email and the associated password as the preference settings of the Hackystat Eclipse Sensor. In case there is no sensorbase, 
