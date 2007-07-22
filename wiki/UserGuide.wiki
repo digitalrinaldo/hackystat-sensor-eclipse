@@ -22,4 +22,4 @@ Eclipse 3.2 must be installed first. You will need its *Feature Update Manager* 
   # Click *OK* button to confirm the entered information.
   # Click the *Finish* button, then Eclipse will automatically locate the _Hackystat Eclipse Sensor_ and install it.   
 
-== 2.2 Configuration of Hackystat Eclipse Sensor ==
+== 2.2 Sensor Configuration ==
