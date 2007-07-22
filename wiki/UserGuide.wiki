@@ -34,6 +34,7 @@ http://hackystat-sensorbase-uh.googlecode.com/files/hackystat-sensorbase-uh-8.0.
 
 == Sensor Settings ==
 You will need to provide a Hackystat host,  a user email and the associated password as the preference settings for the Hackystat Eclipse Sensor. In Window | Preferences menu of Eclipse, you can see a preference page defined by the Hackystat Eclipse Sensor as seen in the following figure. 
+
 http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/images/EclipseSensorPreference.jpg
 
 The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect right away. If everything works as expected, you should be able to see the prompted messages as following:
