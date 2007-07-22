@@ -1,4 +1,4 @@
-#summary User guide for Hackystat Eclipse Sensor
+#summary User guide for downloading, installing, and using Hackystat Eclipse Sensor
 #labels Featured
 
 = Introduction =
