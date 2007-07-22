@@ -1,10 +1,15 @@
 #summary User guide for downloading, installing, and using Hackystat Eclipse Sensor
 #labels Featured
 
-= Introduction =
+= 1.0 Introduction =
 
-Add your content here.
+This User Guide provides instructions on how to install, configure, and run the Hackystat Eclipse sensor. 
 
+= 2.0 Installation =
+
+Before installing the Hackystat Eclipse Sensor, you should install Eclipse 3.2 first if you have not done so. 
+
+= 3.0 Eclipse Sensor Debugging =
 
 = Details =
 
