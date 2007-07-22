@@ -25,7 +25,12 @@ Eclipse 3.2 must be installed first. You will need its *Feature Update Manager* 
 
 = 3.0 Sensor Configuration =
 
-== Download and start sensorbase ==
+== Downloading and running sensorbase ==
+
+  # Download the latest sensorbase from 
+http://hackystat-sensorbase-uh.googlecode.com/files/hackystat-sensorbase-uh-8.0.710.zip 
+  # Install the sensorbase following the [http://code.google.com/p/hackystat-sensorbase-uh/wiki/UserGuide User Guide]
+  # Start the sensorbase service with command such as `java -jar sensorbase.java5.jar` if your JRE is 1.5.
 
 == Sensor Settings ==
-You will need to provide a Hackystat host,  a user email and the associated password as the preference settings of the Hackystat Eclipse Sensor. In case there is no sensorbase, 
+You will need to provide a Hackystat host,  a user email and the associated password as the preference settings for the Hackystat Eclipse Sensor. In Window | Preferences menu of Eclipse, you can see a preference page defined by the Hackystat Eclipse Sensor as seen in the following figure. 
