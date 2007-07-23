@@ -1,14 +1,15 @@
 #summary Release Notes for Hackystat Eclipse Sensor.
 #labels Featured
 
-= Introduction =
+July 24, 2007 Birthday Milestone Release
 
-Add your content here.
+This is the initial release of the Hackystat Eclipse Sensor.
 
+Package:
 
-= Details =
+    * N/A (Please refer to the [http://code.google.com/p/hackystat-sensor-eclipse/wiki/UserGuide UserGuide] for the release.)
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Summary of changes:
+
+    * The sensor is fully functional with this release.  
+
