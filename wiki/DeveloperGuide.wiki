@@ -3,7 +3,7 @@
 
 This document introduces how to build a release of the Hackystat Eclipse sensor from source using Eclipse's plug-in development environment. 
 
-= 1.0 Installing required package =
+= 1.0 Install required package =
 
 The Hackystat Eclipse Sensor project is organized as a feature of Eclipse. You will need Eclipse to build, debug and run the system. 
 
@@ -14,14 +14,23 @@ The Hackystat Eclipse Sensor project is organized as a feature of Eclipse. You w
 || [http://code.google.com/p/hackystat-sensor-shell/ Sensorshell] || 8.0  || Update plugin\lib\sensorshell.java5.jar if necessary ||
   
 
-= 2.0 Checking out the sources =
+= 2.0 Check out the sources =
 Check out the sources from the trunk of the Google Project repository. The URL is:
 
 http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/
 
 The [http://code.google.com/p/hackystat-sensor-eclipse/source Hackystat Eclipse Sensor Source Page] has more instructions
 
-= 3.0 Debugging as an Eclipse application =
+= 3.0 Build a release using PDE =
 
-= 4.0 Building a release using PDE =
- 
+In the checked out sources, you should see four folders named site, feature, plugin and images. 
+|| ./site || Defines the sensor-eclipse-site project project that organizes an update site for users to install the sensor using the *Update Manager* of Eclipse (See [http://code.google.com/p/hackystat-sensor-eclipse/wiki/UserGuide UserGuide]). ||
+|| ./feature || Defines the sensor-eclipse-feature project that encapsulate the sensor as an Eclipse feature for ease of use. ||
+|| ./plugin || Defines the sensor-eclipse-plugin project that implement the Eclipse sensor for Hacksytat 8. ||
+|| ./images || Some screenshots used by [http://code.google.com/p/hackystat-sensor-eclipse/wiki/UserGuide UserGuide] or [http://code.google.com/p/hackystat-sensor-eclipse/wiki/DeveloperGuide DeveloperGuide]. || 
+
+Import three predefined projects into your Eclipse IDE. 
+
+= 4.0 Debug as an Eclipse application =
+
+
