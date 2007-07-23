@@ -24,12 +24,21 @@ The [http://code.google.com/p/hackystat-sensor-eclipse/source Hackystat Eclipse 
 = 3.0 Build a release using PDE =
 
 In the checked out sources, you should see four folders named site, feature, plugin and images. 
-|| ./site || Defines the sensor-eclipse-site project project that organizes an update site for users to install the sensor using the *Update Manager* of Eclipse (See [http://code.google.com/p/hackystat-sensor-eclipse/wiki/UserGuide UserGuide]). ||
-|| ./feature || Defines the sensor-eclipse-feature project that encapsulate the sensor as an Eclipse feature for ease of use. ||
-|| ./plugin || Defines the sensor-eclipse-plugin project that implement the Eclipse sensor for Hacksytat 8. ||
-|| ./images || Some screenshots used by [http://code.google.com/p/hackystat-sensor-eclipse/wiki/UserGuide UserGuide] or [http://code.google.com/p/hackystat-sensor-eclipse/wiki/DeveloperGuide DeveloperGuide]. || 
+|| *./site* || Defines the sensor-eclipse-site project project that organizes an update site for users to install the sensor using the *Update Manager* of Eclipse (See [http://code.google.com/p/hackystat-sensor-eclipse/wiki/UserGuide UserGuide]). ||
+|| *./feature* || Defines the sensor-eclipse-feature project that encapsulate the sensor as an Eclipse feature for ease of use. ||
+|| *./plugin* || Defines the sensor-eclipse-plugin project that implement the Eclipse sensor for Hacksytat 8. ||
+|| *./images* || Some screenshots used by [http://code.google.com/p/hackystat-sensor-eclipse/wiki/UserGuide UserGuide] or [http://code.google.com/p/hackystat-sensor-eclipse/wiki/DeveloperGuide DeveloperGuide]. || 
 
-Import three predefined projects into your Eclipse IDE. 
+== 3.1 Import projects ==
+
+Import the above three predefined projects into your Eclipse IDE. Note that you must open the feature and plugin projects in order to build a release. 
+
+== 3.2 Build a release ==
+All you need is the Eclipse PDE. 
+  * Expand directory tree of the sensor-eclipse-site project 
+  * Open site.xml
+  * In the *Update Site Map* page, click *Build* button or *BuildAll* button to build a release. Eclipse automatically update the release files located in the *./site* folder.
+  * Commit the release to the SVN repository if you are allowed to do so.  
 
 = 4.0 Debug as an Eclipse application =
 
