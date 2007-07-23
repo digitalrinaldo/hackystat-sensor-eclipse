@@ -8,13 +8,18 @@ This document introduces how to build a release of the Hackystat Eclipse sensor 
 The Hackystat Eclipse Sensor project is organized as a feature of Eclipse. You will need Eclipse to build, debug and run the system. 
 
 || Package || Version || Remark  || 
-|| Java    || 1.5     || Eclipse must run in JRE 1.5 or above || 
+|| [http://java.sun.com/ Java]    || 5 or 6    || Eclipse must run on JRE 5 or 6 || 
 || [http://europa-mirror1.eclipse.org/eclipse/downloads/drops/R-3.2.2-200702121330/index.php Eclipse] || 3.2     || ||
 || [http://code.google.com/p/hackystat-sensorbase-uh/ Sensorbase-uh] || 8.0   || || 
 || [http://code.google.com/p/hackystat-sensor-shell/ Sensorshell] || 8.0  || Update plugin\lib\sensorshell.java5.jar if necessary ||
   
 
 = 2.0 Checking out the sources =
+Check out the sources from the trunk of the Google Project repository. The URL is:
+
+http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/
+
+The [http://code.google.com/p/hackystat-sensor-eclipse/source Hackystat Eclipse Sensor Source Page] has more instructions
 
 = 3.0 Debugging as an Eclipse application =
 
