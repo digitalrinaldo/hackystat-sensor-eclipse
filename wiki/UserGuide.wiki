@@ -10,11 +10,11 @@ This User Guide provides instructions on how to install, configure, and run the 
 ||Eclipse ||!DevEvent || Edit || !OpenFile || Generated when a new file is opened.||
 ||Eclipse ||!DevEvent || Edit || !SaveFile || Generated when the current file is saved.||
 ||Eclipse ||!DevEvent || Edit || !CloseFile || Generated when the current file is closed.||
-||Eclipse ||!DevEvent || Edit || Exit || Generated when Emacs is exited.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when adding a new object component such as import statement, class, field, or method.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when renaming an object component.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Remove) || Generated when removing a object component.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Move) || Generated when moving a object  component from one location to another.||
+||Eclipse ||!DevEvent || Edit || Exit || Generated when Eclipse is exited.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when add a new object component such as import statement, class, field, or method.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when rename an object component.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Remove) || Generated when remove a object component.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Move) || Generated when move a object  component from one location to another.||
 ||Eclipse ||!DevEvent || Build || Compile || Generated when build fails.||
 ||Eclipse ||!DevEvent || Debug || Breakpoint(Set/Unset) || Generated when breakpoint is set/unset.||
 ||Eclipse ||!DevEvent || Debug || Start || Generated when start debugging.||
