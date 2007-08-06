@@ -5,12 +5,12 @@
 
 This User Guide provides instructions on how to install, configure, and run the Hackystat Eclipse sensor. The Eclipse sensor collects sensor data regarding developer activities using the Eclipse IDE. In the following table, the bold-faced column names are the sensor data property names.
 
-|| Tool   ||SensorDataType || Type || Subtype || Description ||
-||Eclipse ||DevEvent 	   || Edit || StateChange || Generated when the active buffer has changed.||
-||Eclipse || DevEvent 	   || Edit || OpenFile 	|| Generated when a new file is opened.||
-||Eclipse || DevEvent 	   || Edit || SaveFile 	|| Generated when the current file is saved.||
-||Eclipse || DevEvent 	   || Edit || CloseFile || Generated when the current file is closed.||
-||Eclipse || DevEvent 	   || Edit || !Exit     || Generated when Emacs is exited.||
+|| !Tool   || !SensorDataType || !Type || !Subtype || !Description ||
+||!Eclipse || !DevEvent 	   || !Edit || !StateChange || !Generated when the active buffer has changed.||
+||!Eclipse ||!DevEvent 	   || !Edit || !OpenFile 	|| !Generated when a new file is opened.||
+||!Eclipse ||!DevEvent 	   || !Edit || !SaveFile 	|| !Generated when the current file is saved.||
+||!Eclipse ||!DevEvent 	   ||!Edit || !CloseFile || !Generated when the current file is closed.||
+||!Eclipse ||!DevEvent 	   ||!Edit || !Exit     || !Generated when Emacs is exited.||
 
 = 2.0 Installation =
 
