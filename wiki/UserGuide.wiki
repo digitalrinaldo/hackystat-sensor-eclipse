@@ -11,10 +11,10 @@ This User Guide provides instructions on how to install, configure, and run the 
 ||Eclipse ||!DevEvent || Edit || !SaveFile || Generated when the current file is saved.||
 ||Eclipse ||!DevEvent || Edit || !CloseFile || Generated when the current file is closed.||
 ||Eclipse ||!DevEvent || Edit || Exit || Generated when Emacs is exited.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when adding a new project component.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when renaming a project component.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Remove) || Generated when removing a project component.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Move) || Generated when moving a project component from one location to another.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when adding a new object component such as import statement, class, field, or method.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when renaming an object component.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Remove) || Generated when removing a object component.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Move) || Generated when moving a object  component from one location to another.||
 ||Eclipse ||!DevEvent || Build || Compile || Generated when build fails.||
 ||Eclipse ||!DevEvent || Debug || Breakpoint(Set/Unset) || Generated when breakpoint is set/unset.||
 ||Eclipse ||!DevEvent || Debug || Start || Generated when start debugging.||
@@ -59,4 +59,3 @@ The Hackystat Eclipse Sensor will check the validity of your input after you cli
 {{{
 07/21 22:16:37  Storing sensor data from: hongbing@gmail.com
 }}}
-
