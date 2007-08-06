@@ -18,8 +18,8 @@ This User Guide provides instructions on how to install, configure, and run the 
 ||Eclipse ||!DevEvent || Build || Compile || Generated when build fails.||
 ||Eclipse ||!DevEvent || Debug || Breakpoint(Set/Unset) || Generated when breakpoint is set/unset.||
 ||Eclipse ||!DevEvent || Debug || Start || Generated when start debugging.||
-||Eclipse ||!DevEvent || Debug || !StepInto || Generated when steping into a code bloc.||
-||Eclipse ||!DevEvent || Debug || !StepOver || Generated when steping over a code bloc.||
+||Eclipse ||!DevEvent || Debug || !StepInto || Generated when stepping into a code bloc.||
+||Eclipse ||!DevEvent || Debug || !StepOver || Generated when stepping over a code bloc.||
 ||Eclipse ||!DevEvent || Debug || Terminate || Generated when terminating debugging.||
 
 = 2.0 Installation =
