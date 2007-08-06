@@ -22,7 +22,6 @@ This User Guide provides instructions on how to install, configure, and run the 
 ||Eclipse ||!DevEvent || Debug || !StepOver || Generated when steping over a code bloc.||
 ||Eclipse ||!DevEvent || Debug || Terminate || Generated when terminating debugging.||
 
-
 = 2.0 Installation =
 
 This section introduces how to install the Hackystat Eclipse Sensor using Eclipse's update manager.
