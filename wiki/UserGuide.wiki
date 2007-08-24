@@ -56,6 +56,6 @@ Once you have these three items of information, select the Window | Preferences 
 
 http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/images/EclipseSensorPreference.jpg
 
-The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect the next time you start up Eclipse. 
+The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect the next time you start up Eclipse.  Note that the Eclipse sensor buffers data locally, so you will not see the data sent immediately to the !SensorBase host. To guarantee transmission, exit Eclipse. 
 
 To confirm that data is being received by the !SensorBase, we recommend the use of the [http://code.google.com/p/hackystat-ui-sensordataviewer/ Sensor Data Viewer].
