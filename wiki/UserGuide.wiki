@@ -11,52 +11,42 @@ This User Guide provides instructions on how to install, configure, and run the 
 ||Eclipse ||!DevEvent || Edit || !SaveFile || Generated when the current file is saved.||
 ||Eclipse ||!DevEvent || Edit || !CloseFile || Generated when the current file is closed.||
 ||Eclipse ||!DevEvent || Edit || Exit || Generated when Eclipse is exited.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when add a new object component such as import statement, class, field, or method.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when rename an object component.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Remove) || Generated when remove a object component.||
-||Eclipse ||!DevEvent || Edit || !ProgramUnit(Move) || Generated when move a object  component from one location to another.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Add) || Generated when adding a new program construct such as an import statement, class, field, or method.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Rename) || Generated when renaming a program construct.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Remove) || Generated when removing a program construct.||
+||Eclipse ||!DevEvent || Edit || !ProgramUnit(Move) || Generated when moving a program construct from one location to another.||
 ||Eclipse ||!DevEvent || Build || Compile || Generated when build fails.||
-||Eclipse ||!DevEvent || Debug || Breakpoint(Set/Unset) || Generated when breakpoint is set/unset.||
-||Eclipse ||!DevEvent || Debug || Start || Generated when start debugging.||
-||Eclipse ||!DevEvent || Debug || !StepInto || Generated when stepping into a code bloc.||
-||Eclipse ||!DevEvent || Debug || !StepOver || Generated when stepping over a code bloc.||
-||Eclipse ||!DevEvent || Debug || Terminate || Generated when terminating debugging.||
+||Eclipse ||!DevEvent || Debug || Breakpoint(Set/Unset) || Generated when a breakpoint is set/unset.||
+||Eclipse ||!DevEvent || Debug || Start || Generated when starting a debugging session.||
+||Eclipse ||!DevEvent || Debug || !StepInto || Generated when stepping into a code block.||
+||Eclipse ||!DevEvent || Debug || !StepOver || Generated when stepping over a code block.||
+||Eclipse ||!DevEvent || Debug || Terminate || Generated when terminating a debugging session.||
 
-The Resource property is always the file attached to the active buffer.
+The Resource property of a Sensor Data entry is the file attached to the active buffer.
 
 = 2.0 Installation =
 
-This section introduces how to install the Hackystat Eclipse Sensor using Eclipse's update manager.
+This section describes how to install the Hackystat Eclipse Sensor using Eclipse's update manager.
 
 == 2.1 Eclipse ==
 
-Eclipse 3.2 must be installed first. You will need its *Feature Update Manager* to automatically search and install the sensor. 
+This sensor is compatible with Eclipse 3.2 and 3.3. You will use the *Feature Update Manager* to install the sensor. 
 
 == 2.2 Feature Installation ==
 
-  # Select menu Help | Software Update | Find and Install,  Eclipse will prompt you the *Feature Updates* window. 
+  # Select the menu Help | Software Update | Find and Install.  Eclipse will display the *Feature Updates* window. 
   # Check *Search for new features to install* and click the *Next* button. 
   # Click the *New Remote Site ...* button in the *Update sites to visit* window.
   # In the *New Update Site* window, enter _Hackystat Eclipse Sensor_ as the site name and _http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/site/site.xml_ as the site URL.  
   # Click *OK* button to confirm the entered information.
-  # Click the *Finish* button, then Eclipse will automatically locate the _Hackystat Eclipse Sensor_ for you to install.
-  # Install Hackystat Eclipse Sensor using the *Update Manager* 
+  # Click the *Finish* button. Eclipse will then automatically locate the _Hackystat Eclipse Sensor_ for you to install.
+  # Install Hackystat Eclipse Sensor using the *Update Manager*. 
 
 = 3.0 Sensor Configuration =
 
-== Downloading and running sensorbase ==
-
-  # Download the latest sensorbase from 
-http://hackystat-sensorbase-uh.googlecode.com/files/hackystat-sensorbase-uh-8.0.710.zip 
-  # Install the sensorbase following the [http://code.google.com/p/hackystat-sensorbase-uh/wiki/UserGuide User Guide]
-  # Start the sensorbase service with command such as `java -jar sensorbase.java5.jar` if your JRE is 1.5.
-
 == Sensor Settings ==
-You will need to provide a Hackystat host,  a user email and the associated password as the preference settings for the Hackystat Eclipse Sensor. In Window | Preferences menu of Eclipse, you can see a preference page defined by the Hackystat Eclipse Sensor as seen in the following figure. 
+You will need to provide a Hackystat !SensorBase host, a user email and its associated password in the Preference Settings for the Hackystat Eclipse Sensor. Go to the Window | Preferences menu of Eclipse, and you should see a Preference page for the Hackystat Eclipse Sensor as illustrated in the following figure: 
 
 http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/images/EclipseSensorPreference.jpg
 
-The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect right away. If everything works as expected, you should be able to see the prompted messages as following in the console Window of the sensorbase:
-{{{
-07/21 22:16:37  Storing sensor data from: hongbing@gmail.com
-}}}
+The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect right away. 
