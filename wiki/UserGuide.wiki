@@ -34,21 +34,28 @@ This sensor is compatible with Eclipse 3.2 and 3.3. You will use the *Feature Up
 
 == 2.2 Feature Installation ==
 
-  # Select the menu Help | Software Update | Find and Install.  Eclipse will display the *Feature Updates* window. 
+  # Select the menu Help | Software Updates | Find and Install.  Eclipse will display the *Feature Updates* window. 
   # Check *Search for new features to install* and click the *Next* button. 
   # Click the *New Remote Site ...* button in the *Update sites to visit* window.
   # In the *New Update Site* window, enter _Hackystat Eclipse Sensor_ as the site name and _http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/site/site.xml_ as the site URL.  
   # Click *OK* button to confirm the entered information.
-  # Click the *Finish* button. Eclipse will then automatically locate the _Hackystat Eclipse Sensor_ for you to install.
-  # Install Hackystat Eclipse Sensor using the *Update Manager*. 
+  # Click the *Finish* button. Eclipse will then locate the Hackystat Eclipse Sensor, and display the Search Results window.
+  # Check the Hackystat Eclipse Sensor box, and click "Next" to display the License window. 
+  # Accept the License terms, and click "Next" to display the Installation window.
+  # Click "Finish" to start the download of the sensor. When complete, the Feature Verification window will appear. 
+  # Click "Install" to install the (unsigned) feature. After installation, the Install/Update window will appear, which will ask you if you want to restart or not. 
+  # Click "Yes" to restart Eclipse and complete the installation process. 
 
 = 3.0 Sensor Configuration =
 
 == Sensor Settings ==
-You will need to provide a Hackystat !SensorBase host, a user email and its associated password in the Preference Settings for the Hackystat Eclipse Sensor. Go to the Window | Preferences menu of Eclipse, and you should see a Preference page for the Hackystat Eclipse Sensor as illustrated in the following figure: 
+
+You will need to provide a Hackystat !SensorBase host, a !SensorBase account (i.e. email address), and a password in the Preference Settings for the Hackystat Eclipse Sensor. This generally involves registering with a !SensorBase host.  Contact your Hackystat administrator if you are unclear on how to do this. 
+
+Once you have these three items of information, select the Window | Preferences menu, then select "Hackystat Sensor"  to display its Preference page, as illustrated below:
 
 http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/images/EclipseSensorPreference.jpg
 
-The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect right away. 
+The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect the next time you start up Eclipse. 
 
 To confirm that data is being received by the !SensorBase, we recommend the use of the [http://code.google.com/p/hackystat-ui-sensordataviewer/ Sensor Data Viewer].
