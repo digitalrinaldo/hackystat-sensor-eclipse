@@ -50,3 +50,5 @@ You will need to provide a Hackystat !SensorBase host, a user email and its asso
 http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/images/EclipseSensorPreference.jpg
 
 The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect right away. 
+
+To confirm that data is being received by the !SensorBase, we recommend the use of the [http://code.google.com/p/hackystat-ui-sensordataviewer/ Sensor Data Viewer].
