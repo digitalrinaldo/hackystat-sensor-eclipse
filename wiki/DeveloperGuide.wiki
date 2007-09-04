@@ -37,7 +37,7 @@ Import the above three predefined projects into your Eclipse IDE. Note that you 
 All you need is the Eclipse PDE. 
   * Expand directory tree of the sensor-eclipse-site project 
   * Open site.xml
-  * In the *Update Site Map* page, click *Build* button or *BuildAll* button to build a release. Eclipse automatically update the release files located in the *./site* folder.
+  * In the *Update Site Map* page, click *Build* button or *!BuildAll* button to build a release. Eclipse will automatically update the release files located in the *./site* folder.
   * Commit the release to the SVN repository if you are allowed to do so.  
 
 = 4.0 Debug the sensor as an Eclipse application =
@@ -47,3 +47,4 @@ You can run/debug the sensor as an Eclipse application if desired.
   * Open the sensor-eclipse-plugin project
   * In the main menu, select *Run* | *Run As* || *Eclipse Application* to launch a new Eclipse for debugging. 
   * Do some development in the newly opened Eclipse IDE. You can check the Hackystat log, console output, or Eclipse's Error Log for troubleshooting. Or you can launch the plugin   in debug mode.      
+
