@@ -9,7 +9,7 @@ The Hackystat Eclipse Sensor project is organized as a feature of Eclipse. You w
 
 || Package || Version || Remark  || 
 || [http://java.sun.com/ Java]    || 5 or 6    || Eclipse must run on JRE 5 or 6 || 
-|| [http://europa-mirror1.eclipse.org/eclipse/downloads/drops/R-3.2.2-200702121330/index.php Eclipse] || 3.2     || ||
+|| [http://www.eclipse.org Eclipse] || [http://europa-mirror1.eclipse.org/eclipse/downloads/drops/R-3.2.2-200702121330/index.php 3.2] or [http://www.eclipse.org/downloads/ 3.3]    || ||
 || [http://code.google.com/p/hackystat-sensorbase-uh/ Sensorbase-uh] || 8.0   || || 
 || [http://code.google.com/p/hackystat-sensor-shell/ Sensorshell] || 8.0  || Update plugin\lib\sensorshell.java5.jar if necessary ||
   
