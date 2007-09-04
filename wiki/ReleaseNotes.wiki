@@ -1,7 +1,17 @@
 #summary Release Notes for Hackystat Eclipse Sensor.
 #labels Featured
 
-July 24, 2007 Birthday Milestone Release
+=== September 4, 2007 Milestone Release ===
+
+Package:
+  * (No package available. Use the Eclipse Update Manager to install.)
+
+Summary of changes:
+ * Updated to use the latest sensorshell.jar. 
+ * Plugin now uses version numbers.
+ * Developer Guide updated. 
+
+=== July 24, 2007 Birthday Milestone Release ===
 
 This is the initial release of the Hackystat Eclipse Sensor.
 
