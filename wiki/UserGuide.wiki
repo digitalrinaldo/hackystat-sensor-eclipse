@@ -30,7 +30,7 @@ This section describes how to install the Hackystat Eclipse Sensor using Eclipse
 
 == 2.1 Eclipse ==
 
-This sensor is compatible with Eclipse 3.2 and 3.3. You will use the *Feature Update Manager* to install the sensor. 
+This sensor is compatible with Eclipse 3.3. You will use the *Feature Update Manager* to install the sensor. 
 
 == 2.2 Feature Installation ==
 
