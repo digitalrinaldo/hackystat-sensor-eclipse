@@ -1,6 +1,14 @@
 #summary Release Notes for Hackystat Eclipse Sensor.
 #labels Featured
 
+=== September 12, 2007 Milestone Release ===
+
+Package:
+  * (No package available. Use the Eclipse Update Manager to install/update.)
+
+Summary of changes:
+ * Fixed the sensor to send out sensor data with resource as an attribute
+
 === September 4, 2007 Milestone Release ===
 
 Package:
@@ -22,4 +30,3 @@ Package:
 Summary of changes:
 
     * The sensor is fully functional with this release.  
-
