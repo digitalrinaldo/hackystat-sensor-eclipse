@@ -56,6 +56,11 @@ Open the sensor-eclipse-site project, and do the following:
   * In the "Site Map" tab, under "Managing the Site", there is a window containing the single feature associated with the Eclipse plugin.  That feature will now have an out of date version number.   To fix this, right click on the old feature and select "Remove" to remove it.  Now click "Add Feature..." and a window will appear that should contain the org.hackystat.sensor.eclipse feature with the new version number. Select that feature and click OK to add it to this window. 
   * Save the file. 
 
+Open dist.build.xml located on the top directory (with any editor), and do the following:
+  * Locate a property that looks like the following line
+    {{{<property name="version" value="8.0.923"/>}}}
+  * Update the version number. 
+ 
 == 3.3 Update the sensorshell.jar file ==
 
 In general, you will want to update the sensorshell.jar file to the most recent release.  To do this, get the most
@@ -78,3 +83,4 @@ You can run/debug the sensor as an Eclipse application if desired.
   * Open the sensor-eclipse-plugin project
   * In the main menu, select *Run* | *Run As* || *Eclipse Application* to launch a new Eclipse for debugging. 
   * Do some development in the newly opened Eclipse IDE. You can check the Hackystat log, console output, or Eclipse's Error Log for troubleshooting. Or you can launch the plugin   in debug mode.      
+ 
