@@ -75,6 +75,11 @@ Once the version number and sensorshell.jar file are updated, build the plugin b
   * Click the *Build* button or *!BuildAll* button to build a release. Eclipse will generate two jar files that are located in the features/ and plugins/ directories of the sensor-eclipse-site project. 
   * To make these files available to the community, you must SVN add the new jar files, then SVN commit the entire Eclipse sensor project. 
 
+== 3.5 Build a release headlessly ==
+  * Define the environment variable ECLIPSE_HOME, then open a DOS window.
+  * Build the sensor headlessly using the following command {{{ant -f dist.build.xml}}}, then the release zip will be generated in <where you are>/build/dist.
+  * Add a new download in Google Hosting. 
+  * Upload the release zip file.
 
 = 4.0 Debug the sensor as an Eclipse application =
 
@@ -83,4 +88,5 @@ You can run/debug the sensor as an Eclipse application if desired.
   * Open the sensor-eclipse-plugin project
   * In the main menu, select *Run* | *Run As* || *Eclipse Application* to launch a new Eclipse for debugging. 
   * Do some development in the newly opened Eclipse IDE. You can check the Hackystat log, console output, or Eclipse's Error Log for troubleshooting. Or you can launch the plugin   in debug mode.      
+ 
  
