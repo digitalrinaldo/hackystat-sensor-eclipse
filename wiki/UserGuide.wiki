@@ -30,9 +30,9 @@ This section describes how to install the Hackystat Eclipse Sensor using Eclipse
 
 == 2.1 Eclipse ==
 
-This sensor is compatible with Eclipse 3.3. You will use the *Feature Update Manager* to install the sensor. 
+This sensor is compatible with Eclipse 3.3. You will either use the *Feature Update Manager* to install the sensor (Option A) or use the released zip file for manual installation (Option B). 
 
-== 2.2 Feature Installation ==
+== 2.2 Feature Installation (Option A) ==
 
   # Select the menu Help | Software Updates | Find and Install.  Eclipse will display the Feature Updates window. 
   # Check "Search for new features to install" and click the "Next" button to display the Update Sites To Visit window. 
@@ -45,6 +45,10 @@ This sensor is compatible with Eclipse 3.3. You will use the *Feature Update Man
   # Click "Finish" to start the download of the sensor. When complete, the Feature Verification window will appear. 
   # Click "Install" to install the (unsigned) feature. After installation, the Install/Update window will appear, which will ask you if you want to restart or not. 
   # Click "Yes" to restart Eclipse and complete the installation process. 
+
+2.3 Manual Installation (Option B)
+  # Download the feature release from the home page.
+  # Unzip it to your <directory of the installed eclipse>.
 
 = 3.0 Sensor Configuration =
 
@@ -59,3 +63,4 @@ http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/images/EclipseSensorPre
 The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect the next time you start up Eclipse.  Note that the Eclipse sensor buffers data locally, so you will not see the data sent immediately to the !SensorBase host. To guarantee transmission, exit Eclipse. 
 
 To confirm that data is being received by the !SensorBase, we recommend the use of the [http://code.google.com/p/hackystat-ui-sensordataviewer/ Sensor Data Viewer].
+ 
