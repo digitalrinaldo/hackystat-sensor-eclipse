@@ -46,7 +46,7 @@ This sensor is compatible with Eclipse 3.3. You will either use the *Feature Upd
   # Click "Install" to install the (unsigned) feature. After installation, the Install/Update window will appear, which will ask you if you want to restart or not. 
   # Click "Yes" to restart Eclipse and complete the installation process. 
 
-2.3 Manual Installation (Option B)
+== 2.3 Manual Installation (Option B) ==
   # Download the feature release from the home page.
   # Unzip it to your <directory of the installed eclipse>.
 
@@ -63,4 +63,5 @@ http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/images/EclipseSensorPre
 The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect the next time you start up Eclipse.  Note that the Eclipse sensor buffers data locally, so you will not see the data sent immediately to the !SensorBase host. To guarantee transmission, exit Eclipse. 
 
 To confirm that data is being received by the !SensorBase, we recommend the use of the [http://code.google.com/p/hackystat-ui-sensordataviewer/ Sensor Data Viewer].
+ 
  
