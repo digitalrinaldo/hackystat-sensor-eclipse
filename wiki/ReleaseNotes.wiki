@@ -1,6 +1,15 @@
 #summary Release Notes for Hackystat Eclipse Sensor.
 #labels Featured
 
+=== September 23, 2007 Milestone Release ===
+
+Package:
+  * [http://hackystat-sensor-eclipse.googlecode.com/files/hackystat-sensor-eclipse-8.0.923.zip hackystat-sensor-eclipse-8.0.923]
+
+Summary of changes:
+ * Add headless build capability for the Eclipse Sensor. Now users have the option to install the sensor using the released zip file. Note that the installation with Eclipse's download manager is still supported.
+
+
 === September 12, 2007 Milestone Release ===
 
 Package:
@@ -30,3 +39,4 @@ Package:
 Summary of changes:
 
     * The sensor is fully functional with this release.  
+ 
