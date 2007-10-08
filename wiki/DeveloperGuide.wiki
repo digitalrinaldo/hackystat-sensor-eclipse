@@ -12,7 +12,19 @@ You will need Eclipse to build, debug and run the system.
 || [http://java.sun.com/ Java]    || 1.5 or 1.6    || Eclipse must run on JRE 5 or 6 || 
 || [http://www.eclipse.org Eclipse] || [http://www.eclipse.org/downloads/ Version 3.3]    || Be sure to download Eclipse "classic" in order to get the PDE environment. ||
 || [http://code.google.com/p/hackystat-sensor-shell/ Sensorshell] || 8.0.`*`  || For sensorshell.jar ||
-  
+
+The Hackystat Eclipse Sensor also provides a mechanism to build it automatically headlessly without starting the Eclipse IDE. The automation does not come for cheap. More library files are needed for headless build. 
+|| Ant || 1.7 || ANT_HOME ||  c:\apache-ant-1.7.0 || 
+|| Checkstyle || 4.3 || CHECKSTYLE_HOME ||  D:\Tool\checkstyle-4.3 || 
+|| Emma|| 2.0.5312|| EMMA_HOME|| D:\Tool\emma-2.0.5312 || 
+|| FindBugs || 	1.2.0 	|| FINDBUGS_HOME || D:\Tool\findbugs-1.2.1 || 
+|| Hackystat Utilities || 8.0.710 || HACKYSTAT_UTILITIES_HOME 	|| C:\develop\hackystat-utilities-8.0.1002 ||
+|| Hackystat Sensorshell || 8.0.710 || HACKYSTAT_SENSORSHELL_HOME || C:\develop\hackystat-sensor-shell-8.0.1002 ||
+|| Hackystat SensorBase || 8.0.710 || HACKYSTAT_SENSORBASE_HOME }} D:\svn\hackystat-sensorbase-uh-8.0.606 || 
+|| Java || 1.5 or 1.6 || JAVA_HOME || c:\java\jdk1.5.0_07 || 
+|| JUnit || 4.3.1 || JUNIT_HOME || c:\java-tools\junit4.3.1 ||
+|| PMD 	3.9 || PMD_HOME || c:\java-tools\pmd-3.9 ||
+
 
 = 2.0 Check out the sources =
 
