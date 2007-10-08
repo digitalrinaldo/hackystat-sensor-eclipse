@@ -16,7 +16,7 @@ You will need Eclipse to build, debug and run the system.
 The Hackystat Eclipse Sensor also provides a mechanism to build it automatically headlessly without starting the Eclipse IDE. The automation does not come for cheap. More library files are needed for headless build. 
 || Java || 1.5 or 1.6 || JAVA_HOME || c:\java\jdk1.5.0_07 || 
 || JUnit || 4.3.1 || JUNIT_HOME || c:\java-tools\junit4.3.1 ||
-|| PMD 	3.9 || PMD_HOME || D:\Tool\pmd-3.9 ||
+|| PMD 	|| 3.9 || PMD_HOME || D:\Tool\pmd-3.9 ||
 || Ant || 1.7 || ANT_HOME ||  c:\apache-ant-1.7.0 || 
 || Checkstyle || 4.3 || CHECKSTYLE_HOME ||  D:\Tool\checkstyle-4.3 || 
 || Emma|| 2.0.5312|| EMMA_HOME|| D:\Tool\emma-2.0.5312 || 
