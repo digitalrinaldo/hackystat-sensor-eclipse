@@ -3,7 +3,7 @@
 === October 7, 2007 Milestone Release ===
 
 Package:
-  * [http://hackystat-sensor-eclipse.googlecode.com/files/org.hackystat.sensor.eclipse_8.0.1007.zip    org.hackystat.sensor.eclipse_8.0.1007]
+  * [http://hackystat-sensor-eclipse.googlecode.com/files/hackystat-sensor-eclipse-8.0.1007.zip    hackystat-sensor-eclipse-8.0.1007]
 
 Summary of changes:
  * Integrate Eclipse Sensor with Hackystat to support production release.
