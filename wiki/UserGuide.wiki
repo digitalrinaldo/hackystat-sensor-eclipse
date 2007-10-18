@@ -26,15 +26,10 @@ The Resource property of a Sensor Data entry is the file attached to the active 
 
 = 2.0 Installation =
 
-This section describes how to install the Hackystat Eclipse Sensor using Eclipse's update manager.
-
-== 2.1 Eclipse ==
-
 This sensor is compatible with Eclipse 3.3 only. 
 
-  # Download the feature release from the home page.
-  # Unzip it to a local directory.
-  # Copy the jar file (say org.hackystat.sensor.eclipse_8.0.v20071007.jar) in the unzipped directory to <ECLIPSE_HOME>/plugins folder.
+  # Download the plugin release from the home page.
+  # Copy the jar file (say org.hackystat.sensor.eclipse_8.0.v20071007.jar) to <ECLIPSE_HOME>/plugins folder.
 
 = 3.0 Sensor Configuration =
 
