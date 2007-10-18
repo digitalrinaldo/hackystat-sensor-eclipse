@@ -1,5 +1,14 @@
 #summary Release Notes for Hackystat Eclipse Sensor.
 #labels Featured
+=== October 17, 2007 Milestone Release ===
+
+Package:
+  * [http://hackystat-sensor-eclipse.googlecode.com/files/org.hackystat.sensor.eclipse_8.0.v20071017.jar    org.hackystat.sensor.eclipse_8.0.v20071017]
+
+Summary of changes:
+ * Discouraged the sensor update site
+ * Changed the release of the Eclipse sensor as a single jar file.
+
 === October 7, 2007 Milestone Release ===
 
 Package:
