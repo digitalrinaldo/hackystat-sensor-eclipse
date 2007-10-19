@@ -1,13 +1,47 @@
 #summary Instructions on how to install the Eclipse Sensor.
+#labels Featured
 
-= Introduction =
+== Prerequisites ==
 
-Add your content here.
+This sensor is compatible with Eclipse 3.3 only. 
 
+== Downloading ==
 
-= Details =
+Go to the [http://code.google.com/p/hackystat/downloads/list Hackystat System Distribution Downloads] page and download the latest system distribution "sensors" .zip file. 
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Unzip this file. Assuming you've downloaded the 8.0.1016 release, you will get a directory structure similar to the following:
+
+{{{
+hackystat-sensors-8.0.1016/
+                           hackystat-sensor-ant/
+                             :
+                           hackystat-sensor-eclipse/
+                                                   bin/
+                                                      org.hackystat.sensor.eclipse_8.0.v20071018.jar
+                                                   dist/
+                                                       :
+
+                             :
+}}}
+
+== Installation ==
+
+To install the Hackystat Eclipse sensor, exit any running Eclipse processes, then copy the org.hackystat.sensor.eclipse_(version).jar file to the Eclipse plugins/ directory.
+
+Then restart Eclipse. 
+
+The sensor is now installed. The next step is to set your sensor preferences. 
+
+== Sensor Configuration ==
+
+You will need to provide a Hackystat !SensorBase host, a !SensorBase account (i.e. email address), and a password in the Preference Settings for the Hackystat Eclipse Sensor. This generally involves registering with a !SensorBase host.  Contact your Hackystat administrator if you are unclear on how to do this. 
+
+Once you have these three items of information, select the Window | Preferences menu, then select "Hackystat Sensor"  to display its Preference page, as illustrated below:
+
+http://hackystat-sensor-eclipse.googlecode.com/svn/trunk/images/EclipseSensorPreference.jpg
+
+The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect the next time you start up Eclipse.  Note that the Eclipse sensor buffers data locally, so you will not see the data sent immediately to the !SensorBase host. To guarantee transmission, exit Eclipse. 
+
+To confirm that data is being received by the !SensorBase, we recommend the use of the [http://code.google.com/p/hackystat-ui-sensordataviewer/ Sensor Data Viewer].
+ 
+ 
