@@ -26,7 +26,7 @@ hackystat-sensors-8.0.1016/
 
 == Installation ==
 
-To install the Hackystat Eclipse sensor, exit any running Eclipse processes, then copy the org.hackystat.sensor.eclipse_(version).jar file to the Eclipse plugins/ directory.
+To install the Hackystat Eclipse sensor, exit any running Eclipse processes, then copy the org.hackystat.sensor.eclipse-(version).jar file illustrated above to the Eclipse plugins/ directory.
 
 Then restart Eclipse. 
 
