@@ -17,7 +17,7 @@ hackystat-sensors-8.0.1016/
                              :
                            hackystat-sensor-eclipse/
                                                    bin/
-                                                      org.hackystat.sensor.eclipse_8.0.v20071018.jar
+                                                      org.hackystat.sensor.eclipse_8.0.v20071016.jar
                                                    dist/
                                                        :
 
