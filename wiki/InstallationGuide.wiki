@@ -1,11 +1,11 @@
 #summary Instructions on how to install the Eclipse Sensor.
 #labels Featured
 
-== Prerequisites ==
+== 1.0 Prerequisites ==
 
 This sensor is compatible with Eclipse 3.3 only. 
 
-== Downloading ==
+== 2.0 Downloading ==
 
 Go to the [http://code.google.com/p/hackystat/downloads/list Hackystat System Distribution Downloads] page and download the latest system distribution "sensors" .zip file. 
 
@@ -24,7 +24,7 @@ hackystat-sensors-8.0.1016/
                              :
 }}}
 
-== Installation ==
+== 3.0 Installation ==
 
 To install the Hackystat Eclipse sensor, exit any running Eclipse processes, then copy the org.hackystat.sensor.eclipse-(version).jar file illustrated above to the Eclipse plugins/ directory.
 
@@ -32,7 +32,7 @@ Then restart Eclipse.
 
 The sensor is now installed. The next step is to set your sensor preferences. 
 
-== Sensor Configuration ==
+== 4.0 Sensor Configuration ==
 
 You will need to provide a Hackystat !SensorBase host, a !SensorBase account (i.e. email address), and a password in the Preference Settings for the Hackystat Eclipse Sensor. This generally involves registering with a !SensorBase host.  Contact your Hackystat administrator if you are unclear on how to do this. 
 
