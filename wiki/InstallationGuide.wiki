@@ -7,14 +7,13 @@ This sensor is compatible with Eclipse 3.3 only.
 
 == 2.0 Downloading ==
 
-Go to the [http://code.google.com/p/hackystat/downloads/list Hackystat System Distribution Downloads] page and download the latest system distribution "sensors" .zip file. 
+Go to the [http://code.google.com/p/hackystat/downloads/list Hackystat System Distribution Downloads] page and download the latest binary system distribution "sensors" .zip file. 
 
 Unzip this file. Assuming you've downloaded the 8.0.1016 release, you will get a directory structure similar to the following:
 
 {{{
-hackystat-sensors-8.0.1016/
-                           hackystat-sensor-eclipse/
-                                                   bin/
+hackystat-8.0.1016-sensors-bin/
+                               hackystat-sensor-eclipse/
                                                       org.hackystat.sensor.eclipse_8.0.v20071016.jar
 
                              :
