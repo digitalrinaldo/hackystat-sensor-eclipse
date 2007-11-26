@@ -6,7 +6,9 @@ See the System Distribution for the binaries.
 
 Summary of changes:
  * Fixed runtime for the unit testing data.
-
+ * Provides AutoSave interval as a Preference  
+ * Password field is masked with asterisk.
+ 
 === October 17, 2007 Milestone Release ===
 
 See the System Distribution for the binaries.
