@@ -1,6 +1,6 @@
 #summary Release Notes for Hackystat Eclipse Sensor.
 #labels Featured
-=== November 23, 2007 Milestone Release ===
+=== December 2, 2007 Milestone Release ===
 
 See the System Distribution for the binaries.
 
@@ -8,7 +8,8 @@ Summary of changes:
  * Fixed runtime for the unit testing data.
  * Provides AutoSave interval as a preference  
  * Password field is masked with asterisk.
- 
+ * Changed build script to not update version numbers in source directory.
+
 === October 17, 2007 Milestone Release ===
 
 See the System Distribution for the binaries.
