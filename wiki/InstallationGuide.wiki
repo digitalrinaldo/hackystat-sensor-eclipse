@@ -44,7 +44,7 @@ the interval in minutes specified in this preferences page. Any buffered
 data is always sent when Eclipse exits.  When testing the sensor, you may 
 need to exit Eclipse in order to force data transmission.  
 
-Use the AutoSend Interval preference to change the frequency with which the Eclipse sensor sends data. In general, the default (5 minutes) is reasonably frequent without incurring noticable overhead on the IDE.
+Use the !AutoSend Interval preference to change the frequency with which the Eclipse sensor sends data. In general, the default (5 minutes) is reasonably frequent without incurring noticable overhead on the IDE.
 
 To confirm that data is being received by the !SensorBase, we recommend that you use the Sensor Data page of the !ProjectBrowser application. 
 
