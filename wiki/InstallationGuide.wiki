@@ -46,8 +46,31 @@ need to exit Eclipse in order to force data transmission.
 
 Use the !AutoSend Interval preference to change the frequency with which the Eclipse sensor sends data. In general, the default (5 minutes) is reasonably frequent without incurring noticable overhead on the IDE.
 
+Note that the Eclipse sensor does not read any information from the sensorshell.properties file. 
+
+== 5.0 Verify your installation ==
+
 To confirm that data is being received by the !SensorBase, we recommend that you use the Sensor Data page of the !ProjectBrowser application. 
 
-Note that the Eclipse sensor does not read any information from the sensorshell.properties file. 
+After installing the Eclipse sensor, open Eclipse, work briefly, and then exit Eclipse (to guarantee that the buffered data has been sent). 
+
+Then login to the !ProjectBrowser, select the "Default" project, the current month and year, and press submit.  You should see a ascreen similar to the following appear:
+
+http://hackystat-sensor-eclipse.googlecode.com/svn/wiki/sensordata.gif
+
+This screen shows that !DevEvent data was sent by Eclipse on the current day. 
+
+Clicking on the link pops up a modal window with details on the sensor data:
+
+http://hackystat-sensor-eclipse.googlecode.com/svn/wiki/sensordata.gif
+
+If the !ProjectBrowser does not show your data, then recheck your settings in the Eclipse Preferences page. 
+
+
+
  
  
+
+
+
+
