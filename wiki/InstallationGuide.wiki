@@ -3,7 +3,7 @@
 
 == 1.0 Prerequisites ==
 
-This sensor is compatible with Eclipse 3.3 only. 
+This sensor is compatible with Eclipse 3.3 and above. 
 
 == 2.0 Downloading ==
 
