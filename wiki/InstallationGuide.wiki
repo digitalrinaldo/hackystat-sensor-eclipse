@@ -37,7 +37,14 @@ Once you have these three items of information, select the Window | Preferences 
 
 http://hackystat-sensor-eclipse.googlecode.com/svn/wiki/preferences.gif
 
-The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect the next time you start up Eclipse.  Note that the Eclipse sensor buffers data locally, so you will not see the data sent immediately to the !SensorBase host. To guarantee transmission, exit Eclipse. 
+The Hackystat Eclipse Sensor will check the validity of your input after you click the *Apply* and/or *OK* buttons. The new preferences will take effect the next time you start up Eclipse.  
+
+Note that the Eclipse sensor buffers data locally and "autosends" it after
+the interval in minutes specified in this preferences page. Any buffered
+data is always sent when Eclipse exits.  When testing the sensor, you may 
+need to exit Eclipse in order to force data transmission.  
+
+Use the AutoSend Interval preference to change the frequency with which the Eclipse sensor sends data. In general, the default (5 minutes) is reasonably frequent without incurring noticable overhead on the IDE.
 
 To confirm that data is being received by the !SensorBase, we recommend that you use the Sensor Data page of the !ProjectBrowser application. 
 
