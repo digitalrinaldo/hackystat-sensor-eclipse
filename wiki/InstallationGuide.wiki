@@ -54,15 +54,15 @@ To confirm that data is being received by the !SensorBase, we recommend that you
 
 After installing the Eclipse sensor, open Eclipse, work briefly, and then exit Eclipse (to guarantee that the buffered data has been sent). 
 
-Then login to the !ProjectBrowser, select the "Default" project, the current month and year, and press submit.  You should see a ascreen similar to the following appear:
+Then login to the !ProjectBrowser, select the "Default" project, the current month and year, and press submit.  You should see a screen similar to the following appear:
 
 http://hackystat-sensor-eclipse.googlecode.com/svn/wiki/sensordata.gif
 
-This screen shows that !DevEvent data was sent by Eclipse on the current day. 
+This screen shows that !DevEvent data was sent by Eclipse and this user on November 15, 2008.
 
-Clicking on the link pops up a modal window with details on the sensor data:
+Clicking on the "15: Eclipse" link pops up a modal window with details on the 15 sensor data instances:
 
-http://hackystat-sensor-eclipse.googlecode.com/svn/wiki/sensordata.gif
+http://hackystat-sensor-eclipse.googlecode.com/svn/wiki/sensordata2.gif
 
 If the !ProjectBrowser does not show your data, then recheck your settings in the Eclipse Preferences page. 
 
