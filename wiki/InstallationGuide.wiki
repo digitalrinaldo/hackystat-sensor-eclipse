@@ -7,7 +7,7 @@ This sensor is compatible with Eclipse 3.3 and above.
 
 == 2.0 Downloading ==
 
-Go to the [http://code.google.com/p/hackystat/downloads/list Hackystat System Distribution Downloads] page and download the latest binary system distribution "sensors" .zip file. 
+Go to the [http://www.hackystat.org Hackystat Home Page]  and download the "Featured Download" with "sensors" in its name. (There is also a "services" featured download; you don't need that one.)
 
 Unzip this file. Assuming you've downloaded the 8.0.1016 release, you will get a directory structure similar to the following:
 
