@@ -3,7 +3,7 @@
 
 == 1.0 Prerequisites ==
 
-This sensor is compatible with Eclipse 3.3 and above. 
+This sensor is compatible with Eclipse 3.4. 
 
 == 2.0 Downloading ==
 
@@ -70,7 +70,5 @@ If the !ProjectBrowser does not show your data, then recheck your settings in th
 
  
  
-
-
 
 
