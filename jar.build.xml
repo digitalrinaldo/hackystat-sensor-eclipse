@@ -1,0 +1,31 @@
+<project name="jar" default="jar">
+  <description>
+  Provides the target for building a jar file of the SensorBase.
+  </description>
+
+  <import file="build.xml"/>
+ 
+  <target name="jar" depends="compile">   
+    <unzip src="${basedir}/build/I.Build/org.hackystat.sensor.eclipse-Build.zip" dest="${basedir}/build/I.Build/"/>
+    
+    <!-- Create the plugin release for the update site -->
+    <jar destfile="${basedir}/site/plugins/org.hackystat.sensor.eclipse_${version}.jar"
+      	 manifest="${basedir}/build/I.Build/org.hackystat.sensor.eclipse/plugins/org.hackystat.sensor.eclipse_${version}/META-INF/MANIFEST.MF">
+    	<fileset dir="${basedir}/build/I.Build/org.hackystat.sensor.eclipse/plugins/org.hackystat.sensor.eclipse_${version}"/>
+    </jar>
+  	
+    <!-- Create the feature release for the update site -->
+  	<jar destfile="${basedir}/site/features/org.hackystat.sensor.eclipse_${version}.jar">
+        <fileset dir="${basedir}/build/I.Build/org.hackystat.sensor.eclipse/features/org.hackystat.sensor.eclipse_${version}"/>
+    </jar>
+  	
+  	<!-- Make a binary release on the top-level directory. -->
+    <tstamp>
+      <format property="YMDSTAMP" pattern="yyyyMMdd" />
+    </tstamp>
+    <jar destfile="${basedir}/org.hackystat.sensor.eclipse_${majorVersionNumber}.${minorVersionNumber}.v${YMDSTAMP}.jar"
+      	 manifest="${basedir}/build/I.Build/org.hackystat.sensor.eclipse/plugins/org.hackystat.sensor.eclipse_${version}/META-INF/MANIFEST.MF">
+    	<fileset dir="${basedir}/build/I.Build/org.hackystat.sensor.eclipse/plugins/org.hackystat.sensor.eclipse_${version}"/>
+    </jar>
+  </target>
+</project>
