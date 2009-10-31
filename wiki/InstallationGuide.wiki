@@ -4,11 +4,11 @@
 *Table of Contents*
 <wiki:toc max_depth="3"/>
 
-== 1.0 Prerequisites ==
+= 1.0 Prerequisites =
 
 This sensor is compatible with Eclipse 3.5 (Galileo).  It is probably not downward compatible. 
 
-== 2.0 Downloading ==
+= 2.0 Downloading =
 
 Go to the [http://www.hackystat.org Hackystat Home Page]  and download the "Featured Download" with "sensors" in its name. (There is also a "services" featured download; you don't need that one.)
 
@@ -24,7 +24,7 @@ hackystat-8.3.1030-sensors-bin/
 
 There will also be directories for other sensors as well. 
 
-== 3.0 Installation ==
+= 3.0 Installation =
 
 == 3.1 Installation for Windows ==
 
@@ -79,7 +79,7 @@ Finally, you can install the sensor following the instructions in 3.1.
 For Linux installation, follow the Windows instructions if your Eclipse runs under 1.6, or follow the Macintosh instructions if your Eclipse runs under 1.5.  To figure out what your Eclipse is running under, open the same Configuration window as noted above in Section 3.2.2, then scroll down until you see the value of the java.home property.
 
 
-== 4.0 Sensor Configuration ==
+= 4.0 Sensor Configuration =
 
 You will need to provide a Hackystat !SensorBase host, a !SensorBase account (i.e. email address), and a password in the Preference Settings for the Hackystat Eclipse Sensor. This generally involves registering with a !SensorBase host.  Contact your Hackystat administrator if you are unclear on how to do this. 
 
@@ -98,7 +98,7 @@ Use the !AutoSend Interval preference to change the frequency with which the Ecl
 
 Note that the Eclipse sensor does not read any information from the sensorshell.properties file. 
 
-== 5.0 Verify your installation ==
+= 5.0 Verify your installation =
 
 To confirm that data is being received by the !SensorBase, we recommend that you use the Sensor Data page of the !ProjectBrowser application. 
 
