@@ -66,7 +66,7 @@ sudo cp ~/jaxb-ri-20090708/lib/activation.jar .
 sudo cp ~/jaxb-ri-20090708/lib/jaxb-api.jar .
 sudo cp ~/jaxb-ri-20090708/lib/jaxb-impl.jar .
 sudo cp ~/jaxb-ri-20090708/lib/jsr173_1.0_api.jar .
-}}
+}}}
 
 Note that you should modify these commands based upon the actual location of the endorsed directory and the JAXB installation on your system. 
 
