@@ -1,20 +1,23 @@
 #summary Instructions on how to install the Eclipse Sensor.
 #labels Featured
 
+*Table of Contents*
+<wiki:toc max_depth="3"/>
+
 == 1.0 Prerequisites ==
 
-This sensor is compatible with Eclipse 3.4. 
+This sensor is compatible with Eclipse 3.5 (Galileo).  It is probably not downward compatible. 
 
 == 2.0 Downloading ==
 
 Go to the [http://www.hackystat.org Hackystat Home Page]  and download the "Featured Download" with "sensors" in its name. (There is also a "services" featured download; you don't need that one.)
 
-Unzip this file. Assuming you've downloaded the 8.0.1016 release, you will get a directory structure similar to the following:
+Unzip this file. Assuming you've downloaded the 8.3.1030 release, you will get a directory structure similar to the following:
 
 {{{
-hackystat-8.0.1016-sensors-bin/
+hackystat-8.3.1030-sensors-bin/
                                hackystat-sensor-eclipse/
-                                                      org.hackystat.sensor.eclipse_8.0.v20071016.jar
+                                                      org.hackystat.sensor.eclipse_8.3.v20091030.jar
 
                              :
 }}}
@@ -23,11 +26,58 @@ There will also be directories for other sensors as well.
 
 == 3.0 Installation ==
 
-To install the Hackystat Eclipse sensor, exit any running Eclipse processes, then copy the org.hackystat.sensor.eclipse-(version).jar file illustrated above to the Eclipse plugins/ directory.
+== 3.1 Installation for Windows ==
+
+To install the Hackystat Eclipse sensor on Windows, exit any running Eclipse processes, then copy the org.hackystat.sensor.eclipse-(version).jar file illustrated above to the Eclipse plugins/ directory.
 
 Then restart Eclipse. 
 
-The sensor is now installed. The next step is to set your sensor preferences. 
+The sensor is now installed. The next step is to set your sensor preferences as described in Section 4.0.
+
+== 3.2 Installation for Macintosh (Tiger and Leopard) ==
+
+Installation for the Macintosh is greatly complicated by the lack of support for Java 1.6 on 32 bit Macintoshes running Tiger or Leopard.  What this means is that the Eclipse program by default runs under a Java 1.5 virtual machine on Macintosh.  This will hopefully change with the Snow Leopard OS which is expected to support both 32 bit and 64 bit Java 1.6. When that happens, new releases of Eclipse for the Macintosh should run under 1.6, enabling Macintosh installation to be as easy as Windows installation. 
+
+For now, however, life is not so wonderful.  Macintosh installation involves the following steps:
+
+=== 3.2.1 Download and install a JAXB 2.1 release ===
+
+Go to [https://jaxb.dev.java.net/].  Download the latest stable JAXB 2.1 release, which is a file like JAXB2_20090708.jar.  To install it, you must run 'java -jar JAXB2_20090708.jar'.  Don't just unzip the file.  You must run the jar file in this way in order to display a license agreement, after that a directory will be created with the actual sources. This directory is called something like jaxb-ri-20090708.
+
+=== 3.2.2  Determine the location of the endorsed directory used by Eclipse ===
+
+In Eclipse, open: Eclipse | About Eclipse SDK | Installation Details | Configuration
+
+Now scroll down until you find the property "java.endorsed.dirs".  Make a note of its value.  It should be something like /System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/endorsed.
+
+=== 3.3.3 Copy JAXB files to the endorsed directory ===
+
+Copy the following files from the JAXB directory to the endorsed directory:
+  * activation.jar
+  * jaxb-api.jar
+  * jax-impl.jar
+  * jsr173_1.0_api.jar
+
+Note that this copy operation requires administrator status because of the location of the endorsed directory.  One easy way to do the copy is to open a shell window, then type something like the following:
+
+{{{
+cd /System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/endorsed
+sudo cp ~/jaxb-ri-20090708/lib/activation.jar .
+sudo cp ~/jaxb-ri-20090708/lib/jaxb-api.jar .
+sudo cp ~/jaxb-ri-20090708/lib/jaxb-impl.jar .
+sudo cp ~/jaxb-ri-20090708/lib/jsr173_1.0_api.jar .
+}}
+
+Note that you should modify these commands based upon the actual location of the endorsed directory and the JAXB installation on your system. 
+
+=== 3.3.4 Install the sensor ===
+
+Finally, you can install the sensor following the instructions in 3.1.
+
+== 3.4 Installation for Linux ==
+
+For Linux installation, follow the Windows instructions if your Eclipse runs under 1.6, or follow the Macintosh instructions if your Eclipse runs under 1.5.  To figure out what your Eclipse is running under, open the same Configuration window as noted above in Section 3.2.2, then scroll down until you see the value of the java.home property.
+
 
 == 4.0 Sensor Configuration ==
 
