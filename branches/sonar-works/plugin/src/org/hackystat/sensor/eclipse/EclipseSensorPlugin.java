@@ -104,7 +104,8 @@ public class EclipseSensorPlugin extends AbstractUIPlugin implements BundleActiv
   /**
    * Implements an inner thread class to handle sensor update.  
    */
-  private static class SensorUpdateThread extends Thread {
+  @SuppressWarnings("unused")
+private static class SensorUpdateThread extends Thread {
     // /** Resource bundle. */
     //private Bundle bundle;   // this is never assigned, so always null. Not sure why.
     /** Update site. */
