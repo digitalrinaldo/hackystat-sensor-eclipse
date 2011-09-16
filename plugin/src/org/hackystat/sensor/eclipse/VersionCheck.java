@@ -32,6 +32,7 @@ import org.xml.sax.SAXException;
  * 
  * @author Hongbing Kou
  */
+@SuppressWarnings("deprecation")
 public class VersionCheck {
   /** Bundle object. */
   private Bundle bundle;

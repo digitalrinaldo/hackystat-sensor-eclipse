@@ -87,7 +87,7 @@ public class SensorShellWrapper {
 
   /**
    * Processes to display the message in the status line. Since EclipseSensor is executed
-   * from a non-UI thread, such the application that wishs to call UI code from the non-UI thread
+   * from a non-UI thread, such the application that wishes to call UI code from the non-UI thread
    * must provide a Runnable (anonymous class in this case) that calls the UI code. 
    * For more detail, try to search "Threading issues" in the "Help | Help Contents" of
    * the Eclipse IDE.
