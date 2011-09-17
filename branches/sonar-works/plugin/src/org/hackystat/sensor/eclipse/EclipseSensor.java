@@ -66,7 +66,7 @@ import org.hackystat.sensorshell.SensorShellProperties;
  * following process methods: Because of lazy instantiation, any activity was not set until the
  * initial call for <code>getInstance()</code>.
  * </p>
- * @author Hongbing Kou, Takuya Yamashita
+ * @author Hongbing Kou, Takuya Yamashita, seninp
  */
 public class EclipseSensor {
   /** A singleton instance. */
@@ -204,6 +204,18 @@ public class EclipseSensor {
     String autosendInterval = store.getString(PreferenceConstants.P_AUTOSEND_INTERVAL);
     props.put(SensorShellProperties.SENSORSHELL_AUTOSEND_TIMEINTERVAL_KEY, autosendInterval);
 
+    //
+    // read in SONAR properties
+    String sonarHost = store.getString(PreferenceConstants.P_SONAR_HOST);
+    props.put(SensorShellProperties.SENSORSHELL_SONAR_HOST_KEY, sonarHost);
+
+    String sonarLogin = store.getString(PreferenceConstants.P_SONAR_LOGIN);
+    props.put(SensorShellProperties.SENSORSHELL_SONAR_LOGIN_KEY, sonarLogin);
+
+    String sonarPassword = store.getString(PreferenceConstants.P_SONAR_PASSWORD);
+    props.put(SensorShellProperties.SENSORSHELL_SONAR_PASSWORD_KEY, sonarPassword);
+    
+    
     SensorShellProperties sensorShellProperties = new SensorShellProperties(props, true);
     
     return sensorShellProperties;

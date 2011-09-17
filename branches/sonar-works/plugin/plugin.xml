@@ -10,7 +10,7 @@
    <extension point="org.eclipse.ui.preferencePages">
       <page 
          id="HackystatSensorPrefernece" 
-         name="Hackystat Sensor" 
+         name="Hackystat Sensor for SONAR" 
          class="org.hackystat.sensor.eclipse.preference.SensorPreferencePage"> 
       </page> 
    </extension>
