@@ -1,6 +1,7 @@
 package org.hackystat.sensor.eclipse.preference;
 
 import org.eclipse.jface.preference.FieldEditorPreferencePage;
+import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.jface.preference.IntegerFieldEditor;
 import org.eclipse.jface.preference.StringFieldEditor;
 import org.eclipse.ui.IWorkbench;
@@ -9,6 +10,7 @@ import org.hackystat.sensor.eclipse.EclipseSensor;
 import org.hackystat.sensor.eclipse.EclipseSensorPlugin;
 import org.hackystat.sensorbase.client.SensorBaseClient;
 import org.hackystat.sensorshell.SensorShellException;
+import org.sonar.wsclient.Sonar;
 
 /**
  * Implements the preference page for Eclipse Sensor. It does some validation to make sure that
@@ -125,21 +127,42 @@ public class SensorPreferencePage extends FieldEditorPreferencePage implements
    * @return True if inputs are valid.
    */
   public boolean performOk() {
+
     // IPreferenceStore store = super.getPreferenceStore();
+
     String sensorbase = this.sensorbaseField.getStringValue();
     if (!SensorBaseClient.isHost(sensorbase)) {
-      super.setErrorMessage(sensorbase + " is an invalid hackystat host!");
+      super.setErrorMessage(sensorbase + " is an invalid HACKYSTAT host!");
       return false;
     }
 
     String email = this.emailField.getStringValue();
     // store.getString(PreferenceConstants.P_EMAIL);
     String password = this.passwordField.getStringValue();
-    // store.getDefaultString(PreferenceConstants.P_PASSWORD);
+    // String password = store.getDefaultString(PreferenceConstants.P_PASSWORD);
     if (!SensorBaseClient.isRegistered(sensorbase, email, password)) {
-      super.setErrorMessage("Either email or password is incorrect!");
+      super.setErrorMessage("Either HACKYSTAT email or password is incorrect!");
       return false;
     }
+
+    // try to create a SONAR connector
+    //
+    String sonar = this.sonarHostField.getStringValue();
+    Sonar sonarClient = Sonar.create(sonar);
+    if (null == sonarClient) {
+      super.setErrorMessage(sensorbase + " is an invalid SONAR host!");
+      return false;
+    }
+    String login = this.sonarLoginField.getStringValue();
+    String pass = this.sonarPasswordField.getStringValue();
+    sonarClient = Sonar.create(sonar, login, pass);
+    if (null == sonarClient) {
+      super.setErrorMessage("Either SONAR login or password is incorrect!");
+      return false;
+    }
+
+    // check if SONAR credentials are OK
+    //
 
     // Ask sensor to enable the new settings.
     try {
