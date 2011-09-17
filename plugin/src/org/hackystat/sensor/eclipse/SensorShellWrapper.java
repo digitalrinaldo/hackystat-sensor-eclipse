@@ -19,7 +19,7 @@ import org.hackystat.sensorshell.SensorShellProperties;
  * Provides the sensor shell wrapper class, which provides eclipse specific invocation such that 
  * the collected sensor data are shown on the status bar for monitoring. 
  * 
- * @author Hongbing Kou
+ * @author Hongbing Kou, seninp
  */
 public class SensorShellWrapper {
   /** The sensor shell instance. */
