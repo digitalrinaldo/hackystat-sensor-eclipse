@@ -16,8 +16,10 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui.workbench.texteditor,
  org.eclipse.update.ui,
  org.eclipse.ui.ide,
- org.junit4
+ org.junit4,
+ org.apache.commons.httpclient;bundle-version="3.1.0"
 Eclipse-LazyStart: true
 Bundle-ClassPath: sensor.eclipse.jar,
- lib/sensorshell.jar
+ lib/sensorshell.jar,
+ lib/sonar-ws-client.jar
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
